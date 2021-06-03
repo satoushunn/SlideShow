@@ -1,0 +1,49 @@
+@charset"utf-8";
+
+#box {
+    position: relative;
+    background-color: seagreen;
+    width: 980px;
+    margin: auto;
+    overflow:hidden;
+}
+
+#slide_show {
+    background-color: aqua;
+   position: relative;
+    width: 100%;
+    max-width: 640px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#yamagatadaigaku {
+    width: 2560px;
+    list-style: none;
+}
+
+.yamagata {
+    background-color: tomato;
+    position: relative;
+    float: left;
+    overflow: hidden;
+   
+}
+
+#slide_btn .back {
+    position: absolute;
+    width: 80px;
+    left: 80px;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+#slide_btn .next {
+    position: absolute;
+    width: 80px;
+    right: 80px;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+}
