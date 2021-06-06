@@ -2,14 +2,12 @@
 
 #box {
     position: relative;
-    background-color: seagreen;
     width: 980px;
     margin: auto;
     overflow:hidden;
 }
 
 #slide_show {
-    background-color: aqua;
    position: relative;
     width: 100%;
     max-width: 640px;
@@ -18,12 +16,11 @@
 }
 
 #yamagatadaigaku {
-    width: 2560px;
+    width: calc(640px * 4);
     list-style: none;
 }
 
 .yamagata {
-    background-color: tomato;
     position: relative;
     float: left;
     overflow: hidden;
